@@ -1,0 +1,52 @@
+h1 {
+    text-align : center;
+    font-size : 300%;
+    font-style : italic;
+    font-family : Impact, Charcoal, sans-serif;
+    font-weight : lighter;
+    padding : 20px 20px 40px 20px;
+    margin-top : 25px;
+    margin-bottom : 0;
+    color : #11313d;
+    background: rgba(204,161,204,1);
+    background: -moz-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,161,204,1)), color-stop(100%, rgba(94,187,199,1)));
+    background: -webkit-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -o-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -ms-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: linear-gradient(to right, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca1cc', endColorstr='#5ebbc7', GradientType=1 );
+  }
+  a {
+    text-decoration : none;
+    color : inherit;
+  }
+  body {
+    margin : 0;
+  }
+  #mainList {
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    background: rgba(204,161,204,1);
+    background: -moz-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,161,204,1)), color-stop(100%, rgba(94,187,199,1)));
+    background: -webkit-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -o-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: -ms-linear-gradient(left, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    background: linear-gradient(to right, rgba(204,161,204,1) 0%, rgba(94,187,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca1cc', endColorstr='#5ebbc7', GradientType=1 );
+  }
+  .index {
+    border-right : 2px solid #11313d;
+    text-align : center;
+    font-size :15px;
+    color : #11313d;
+    font-family: Mindflyers;
+    font-weight : bold;
+    padding-top : 5px;
+    padding-bottom : 5px;
+  }
+  .container {
+    display :flex;
+
+  }
