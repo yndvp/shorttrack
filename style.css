@@ -17,31 +17,113 @@ h1 {
     background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
     );
   }
-  a {
-    text-decoration : none;
-    color : inherit;
-  }
-  .navbar {
-    background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
-    );    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  .navbar > li { 
-    float: left; 
-    width: 25%;
-  }
+a {
+  text-decoration : none;
+  color : inherit;
+}
+/*.navbar {
+  background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
+  );    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar > li { 
+  float: left; 
+  width: 25%;
+}
 
-  .navbar > li > a {
-    display: block;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 8px;
-  }
-  .navbar > li > a:hover {
-    background-color: rgb(114, 121, 128);
-    color: white;
-  }
+.navbar > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+}
+.navbar > li > a:hover {
+  background-color: rgb(114, 121, 128);
+  color: white;
+}
+.subbar {
+  position: absolute;
+  display: block;
+  float: left;
+}*/
+
+/*ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
+  );
+}
+ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: red;
+}
+ul li a {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  font-weight: bold;
+}
+ul li ul li {
+  width: 100%;
+  display: none;
+  background-color: rgb(42, 60, 95);
+}
+ul li ul li a {
+  font-weight: normal;
+}
+ul li:hover {
+  background-color: rgb(114, 121, 128);
+}
+ul li:hover ul li {
+  display: block;
+}*/
+
+.menu-bar {
+  background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
+  );
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.menu-bar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.menu-bar ul li {
+  width: 25%;
+  padding: 8px;
+}
+.menu-bar ul li:hover {
+  background-color: rgb(42, 60, 95);
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(237, 239, 226);
+  margin-top: 8px;
+  margin-left: -8px;
+  width: 25%;
+  color: black;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 100%;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover {
+  color:white;
+}
