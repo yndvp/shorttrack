@@ -10,12 +10,11 @@ h1 {
     font-family : Impact, Charcoal, sans-serif;
     font-weight : lighter;
     word-spacing: 5px;
-    padding : 18px;
+    padding : 15px;
     margin-top : 20px;
-    margin-bottom : 15px;
-    color : white;
-    background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
-    );
+    margin-bottom : 30px;
+    color : rgb(42, 60, 95);
+    background-color: rgb(237, 239, 226);
   }
 a {
   text-decoration : none;
@@ -87,10 +86,9 @@ ul li:hover ul li {
 }*/
 
 .menu-bar {
-  background-image: linear-gradient(to right, rgb(75, 168, 178), rgb(114, 121, 128), rgb(42, 60, 95)
-  );
+  background-color: rgb(237, 239, 226);
   text-align: center;
-  color: white;
+  color: rgb(42, 60, 95);
   font-weight: bold;
 }
 .menu-bar ul {
@@ -98,19 +96,24 @@ ul li:hover ul li {
   justify-content: center;
   list-style: none;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .menu-bar ul li {
-  width: 25%;
-  padding: 8px;
+  width: 20%;
+  padding: 7px;
+  font-family: "Palatino";
 }
 .menu-bar ul li a {
   width: 100%;
 }
 .menu-bar ul li:hover {
   background-color: rgb(42, 60, 95);
+  color: rgb(237, 239, 226);
 }
 .sub-menu-1 {
   display: none;
+  z-index: 1;
 }
 .menu-bar ul li:hover .sub-menu-1 {
   display: block;
@@ -118,7 +121,7 @@ ul li:hover ul li {
   background-color: rgb(237, 239, 226);
   margin-top: 8px;
   margin-left: -8px;
-  width: 25%;
+  width: 20%;
   color: black;
   font-size: 90%;
 }
@@ -127,7 +130,24 @@ ul li:hover ul li {
 }
 .menu-bar ul li:hover .sub-menu-1 ul li {
   width: 100%;
+  font-family: "Comic Sans MS";
 }
 .menu-bar ul li:hover .sub-menu-1 ul li:hover {
   color:white;
 }
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.column {
+  flex: 33%;
+}
+.column img {
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+
+  
